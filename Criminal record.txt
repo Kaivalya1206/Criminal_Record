@@ -1,0 +1,96 @@
+import java.util.*;
+class Crime
+{
+void display()
+{
+System.out.println(" ");
+System.out.println("a criminal record, police record, or colloquially rap sheet is a record of a person's criminal
+history.");
+System.out.println("the information included in a criminal record and the existence of a criminal record varies
+between countries ");
+System.out.println("and even between jurisdictions within a country."); System.out.println(" ");
+}}
+class Final extends Crime{
+public static void main (String args[])
+ 
+{
+Scanner input = new scanner(system.In); String user, pass;
+System.Out.Print("enter your username : "); 
+
+user = input.Nextline(); System.Out.Print("enter your password : "); 
+pass = input .Nextline();
+If(user.Equals("kaivalya@criminalrecord") && (pass.Equals("police"))){ System.Out.Println("permission granted to cheack criminal record ");
+
+string str;
+
+
+Scanner obj = new Scanner (system.In); System.Out.Print("enter your name :"); 
+str = obj.Nextline(); 
+System.Out.Println("welcome "+str+" sir");
+Crime a3=new crime();
+A3.Display(); Int choice;
+System.Out.Println("=============welocome TO CRIME BRANCH DEPARTMENT==============");
+ 
+System.Out.Println(" ");
+System.Out.Println("criminal name -SUMIT SHETTI id-1");
+System.Out.Println("criminal name -SHANTANU NAYAR id-2"); 
+System.Out.Println("criminal name -YUVARJ THAKUR id-3"); 
+System.Out.Println("criminal name -MOHIT SURVE id-4");
+System.Out.Println("criminal name -RUSHI PEDNEKAR id-5"); 
+Scanner c1=new scanner(system.In); 
+System.Out.Println("enter criminal id");
+Choice =c1.Nextint();
+Switch(choice) { 
+
+
+Case 1:
+Int c;
+System.Out.Println("list of the crime done by SUMIT SHETTI ");
+System.Out.Println("crime_1--roerry--year 1999");
+System.Out.Println("crime_2--drug--year 2000"); 
+System.Out.Println("crime_3--car thif--year2003 ");
+System.Out.Println("almost 4 crime done by SUMIT SHETTI ");
+Break;
+ 
+Case 2:
+Int p;
+System.Out.Println("list of the crime done by SHANTANU NAYAR"); 
+System.Out.Println("crime_1--roerry--year 1999"); 
+System.Out.Println("crime_2--car thif--year2003 "); 
+System.Out.Println("crime_3-- bike thif--year2006"); 
+System.Out.Println("almost 3 crime done by SHANTANU NAYAR");
+Break;
+
+Case 3:
+Int b;
+System.Out.Println("list of the crime done by YUVARJ THAKUR "); 
+System.Out.Println("crime_1--bank roerry--year 1999");
+System.Out.Println("crime_2--cybercrime--year 2003"); 
+System.Out.Println("almost 2 crime done by YUVARJ THAKUR "); 
+Break;
+
+Case 4:
+Int n;
+System.Out.Println("list of the crime done by MOHIT SURVE");
+ 
+System.Out.Println("crime_1--pokit thif--year 1999"); 
+System.Out.Println("crime_2-- FRAUD policy--year2006"); 
+System.Out.Println("almost 2 crime done by MOHIT SURVE");
+Break;
+
+Case 5:
+Int x;
+System.Out.Println("list of the crime done by RUSHI PEDNEKAR ");
+System.Out.Println("crime_1--roerry--year 1999");
+System.Out.Println("crime_2--drug smuggling--year 2000"); 
+System.Out.Println("almost 2 crime done by RUSHI PEDNEKAR"); 
+Break;
+Default:
+System.Out.Println("it's invalid criminal id");
+
+}}
+Else{
+System.Out.Println("you can't access criminal record ");
+}
+System.Out.Println(" 	");
+}}
