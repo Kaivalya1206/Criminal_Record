@@ -1,96 +1,101 @@
-import java.util.*;
+import java.util.Scanner;
 class Crime
 {
 void display()
 {
 System.out.println(" ");
-System.out.println("a criminal record, police record, or colloquially rap sheet is a record of a person's criminal
-history.");
-System.out.println("the information included in a criminal record and the existence of a criminal record varies
-between countries ");
-System.out.println("and even between jurisdictions within a country."); System.out.println(" ");
+System.out.println("a criminal record, police record, or colloquially rap sheet is a record of a person's criminal history.");
+System.out.println("the information included in a criminal record and the existence of a criminal record varies between countries ");
+System.out.println("and even between jurisdictions within a country."); 
+System.out.println(" ");
 }}
-class Final extends Crime{
+class FCrime extends Crime{
 public static void main (String args[])
  
 {
-Scanner input = new scanner(system.In); String user, pass;
-System.Out.Print("enter your username : "); 
+Scanner sc = new Scanner(System.in); 
+String user, pass;
+System.out.println("enter your username : "); 
 
-user = input.Nextline(); System.Out.Print("enter your password : "); 
-pass = input .Nextline();
-If(user.Equals("kaivalya@criminalrecord") && (pass.Equals("police"))){ System.Out.Println("permission granted to cheack criminal record ");
+user = sc.nextLine(); System.out.print("enter your password : "); 
+pass = sc .nextLine();
+if(user.equals("kaivalya@criminalrecord") && (pass.equals("police"))){ 
+    System.out.println("permission granted to cheack criminal record ");
 
-string str;
+String str;
 
 
-Scanner obj = new Scanner (system.In); System.Out.Print("enter your name :"); 
-str = obj.Nextline(); 
-System.Out.Println("welcome "+str+" sir");
-Crime a3=new crime();
-A3.Display(); Int choice;
-System.Out.Println("=============welocome TO CRIME BRANCH DEPARTMENT==============");
+Scanner obj = new Scanner (System.in); 
+System.out.print("enter your name :"); 
+str = obj.nextLine(); 
+System.out.println("welcome "+str+" sir");
+Crime a3=new Crime();
+a3.display(); 
+
+int choice;
+System.out.println("=============welocome TO CRIME BRANCH DEPARTMENT==============");
  
-System.Out.Println(" ");
-System.Out.Println("criminal name -SUMIT SHETTI id-1");
-System.Out.Println("criminal name -SHANTANU NAYAR id-2"); 
-System.Out.Println("criminal name -YUVARJ THAKUR id-3"); 
-System.Out.Println("criminal name -MOHIT SURVE id-4");
-System.Out.Println("criminal name -RUSHI PEDNEKAR id-5"); 
-Scanner c1=new scanner(system.In); 
-System.Out.Println("enter criminal id");
-Choice =c1.Nextint();
-Switch(choice) { 
-
-
-Case 1:
-Int c;
-System.Out.Println("list of the crime done by SUMIT SHETTI ");
-System.Out.Println("crime_1--roerry--year 1999");
-System.Out.Println("crime_2--drug--year 2000"); 
-System.Out.Println("crime_3--car thif--year2003 ");
-System.Out.Println("almost 4 crime done by SUMIT SHETTI ");
-Break;
+Scanner c1=new Scanner(System.in); 
+System.out.println("enter criminal id");
+choice =c1.nextInt();
+switch(choice) { 
+case 0:
+int k;
+System.out.println(" ");
+System.out.println("criminal name -SUMIT SHETTI id-1");
+System.out.println("criminal name -SHANTANU NAYAR id-2"); 
+System.out.println("criminal name -YUVARJ THAKUR id-3"); 
+System.out.println("criminal name -MOHIT SURVE id-4");
+System.out.println("criminal name -RUSHI PEDNEKAR id-5");     
+        
+case 1:
+int c;
+System.out.println("list of the crime done by SUMIT SHETTI ");
+System.out.println("crime_1--roerry--year 1999");
+System.out.println("crime_2--drug--year 2000"); 
+System.out.println("crime_3--car thif--year2003 ");
+System.out.println("almost 4 crime done by SUMIT SHETTI ");
+break;
  
-Case 2:
-Int p;
-System.Out.Println("list of the crime done by SHANTANU NAYAR"); 
-System.Out.Println("crime_1--roerry--year 1999"); 
-System.Out.Println("crime_2--car thif--year2003 "); 
-System.Out.Println("crime_3-- bike thif--year2006"); 
-System.Out.Println("almost 3 crime done by SHANTANU NAYAR");
-Break;
+case 2:
+int p;
+System.out.println("list of the crime done by SHANTANU NAYAR"); 
+System.out.println("crime_1--roerry--year 1999"); 
+System.out.println("crime_2--car thif--year2003 "); 
+System.out.println("crime_3-- bike thif--year2006"); 
+System.out.println("almost 3 crime done by SHANTANU NAYAR");
+break;
 
-Case 3:
-Int b;
-System.Out.Println("list of the crime done by YUVARJ THAKUR "); 
-System.Out.Println("crime_1--bank roerry--year 1999");
-System.Out.Println("crime_2--cybercrime--year 2003"); 
-System.Out.Println("almost 2 crime done by YUVARJ THAKUR "); 
-Break;
+case 3:
+int b;
+System.out.println("list of the crime done by YUVARJ THAKUR "); 
+System.out.println("crime_1--bank roerry--year 1999");
+System.out.println("crime_2--cybercrime--year 2003"); 
+System.out.println("almost 2 crime done by YUVARJ THAKUR "); 
+break;
 
-Case 4:
-Int n;
-System.Out.Println("list of the crime done by MOHIT SURVE");
+case 4:
+int n;
+System.out.println("list of the crime done by MOHIT SURVE");
  
-System.Out.Println("crime_1--pokit thif--year 1999"); 
-System.Out.Println("crime_2-- FRAUD policy--year2006"); 
-System.Out.Println("almost 2 crime done by MOHIT SURVE");
-Break;
+System.out.println("crime_1--pokit thif--year 1999"); 
+System.out.println("crime_2-- FRAUD policy--year2006"); 
+System.out.println("almost 2 crime done by MOHIT SURVE");
+break;
 
-Case 5:
-Int x;
-System.Out.Println("list of the crime done by RUSHI PEDNEKAR ");
-System.Out.Println("crime_1--roerry--year 1999");
-System.Out.Println("crime_2--drug smuggling--year 2000"); 
-System.Out.Println("almost 2 crime done by RUSHI PEDNEKAR"); 
-Break;
-Default:
-System.Out.Println("it's invalid criminal id");
+case 5:
+int x;
+System.out.println("list of the crime done by RUSHI PEDNEKAR ");
+System.out.println("crime_1--roerry--year 1999");
+System.out.println("crime_2--drug smuggling--year 2000"); 
+System.out.println("almost 2 crime done by RUSHI PEDNEKAR"); 
+break;
+default:
+System.out.println("it's invalid criminal id");
 
 }}
-Else{
-System.Out.Println("you can't access criminal record ");
+else{
+System.out.println("you can't access criminal record ");
 }
-System.Out.Println(" 	");
+System.out.println(" 	");
 }}
